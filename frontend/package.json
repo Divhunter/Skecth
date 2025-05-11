@@ -1,9 +1,9 @@
 {
-  "name": "vowdapp",
+  "name": "sketchviewapp",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
-  "homepage": "https://www.vowd.fr",
+  "homepage": "https://www.sketchview.fr",
   "engines": {
     "node": "18.x"
   },
