@@ -2,66 +2,120 @@
 <html lang="fr">
 
 <head>
+  <!-- Charset et compatibilité -->
   <meta charset="utf-8" />
-  <!-- <meta X-Content-Type-Options=nosniff content="text/html" /> -->
-  <link rel="icon" href="%PUBLIC_URL%/logo-icon.png" />
-  <link rel="canonical" href="https://www.mutuact.fr/" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Language" content="fr" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="robots" content="index, follow" />
-  <meta name="googlebot-news" content="index, follow" />
-  <meta name="googlebot-mobile" content="index, follow" />
-  <meta name="description"
-    content="Depuis plus de 20 ans : une expertise qui vous garantie le meilleur comparatif d’assurances et de mutuelles adapté à vos besoins spécifiques.">
-  <meta name="keywords"
-    content=" mutuact, MUTUACT, Mutuact, assurance, prévoyance, assurance santé, assurance auto, assurance moto, 100% santé, assurance prêt, assurance professionnelle, épargne, courtier en assurance, assureur, assurance habitation, assurance scolaire, assurance vie, assurance pas chère.">
-  <meta name="author" content="vowd.fr">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="sketchview" />
+  <meta name="application-name" content="sketchview" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/logo-icon.png" />
+  <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+  <meta name="generator" content="react 18.3.1" />
+
+  <!-- SEO : Description, mots-clés, robots -->
+  <meta name="description" content="sketchview.fr est une agence de communication basée à Lyon spécialisée dans les projets web et mobile, nos services sont les suivants : référencement national, transfert de nom de domaine, création de site vitrine, création de site Wordpress, référencement local, création de site e-commerce, référencement naturel, designer numérique, référencement de site e-commerce, refonte de site internet, solution e-commerce, création de blog gratuit, infographiste web, réservation de nom de domaine, web design, conseil e-commerce, création de site communautaire, logiciel CMS, création de site internet en freelance, référencement de site internet, création de site en ligne, création de site web dynamique, extension de nom de domaine, webdesigner, site internet sur mesure, création de site internet immobilier, hébergement PHP, maintenance de site internet, référencement de site professionnel, renouvellement de nom de domaine, développement web, webmaster, développement informatique, création de site internet professionnel, hébergement e-commerce, hébergement revendeur, traduction de site internet, création de site responsive, création de charte graphique, designer graphique, motion design, agence SEO." />
+  <meta name="keywords" content="agence de communication digitale, meilleur création de site web, site web pas cher, meilleur site web, conception de site e.commerce, conception de site web, digital marketing, référencement national, transfert de nom de domaine, création de site vitrine, création de site Wordpress, référencement local, création de site e-commerce, référencement naturel, designer numérique, référencement de site e-commerce, refonte de site internet, solution e-commerce, création de blog gratuit, infographiste web, réservation de nom de domaine, web design, conseil e-commerce, création de site communautaire, logiciel CMS, création de site internet en freelance, référencement de site internet, création de site en ligne, création de site web dynamique, extension de nom de domaine, webdesigner, site internet sur mesure, création de site internet immobilier, hébergement PHP, maintenance de site internet, référencement de site professionnel, renouvellement de nom de domaine, développement web, webmaster, développement informatique, création de site internet professionnel, hébergement e-commerce, hébergement revendeur, traduction de site internet, création de site responsive, création de charte graphique, designer graphique, motion design, agence SEO" />
+  <meta name="author" content="Aaron DIVIOKA" />
+
+  <!-- Sécurité et performance -->
+  <meta http-equiv="Cache-Control" content="max-age=31536000, immutable" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta http-equiv="Referrer-Policy" content="no-referrer" />
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()" /> 
+
+  <!-- Open Graph Meta Tags (réseaux sociaux) -->
   <meta property="og:locale" content="fr" />
-  <meta property="og:site_name" content="mutuact" />
-  <meta property="og:title" content="mutuact" />
-  <meta property="og:description"
-    content="Depuis plus de 20 ans : une expertise qui vous garantie le meilleur comparatif d’assurances et de mutuelles adapté à vos besoins spécifiques." />
+  <meta property="og:site_name" content="sketchview" />
+  <meta property="og:title" content="sketchview : dessinateur indistruel à Lyon" />
+  <meta property="og:description" content="sketchview.fr est une agence de communication basée à Lyon spécialisée dans les projets web et mobile..." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.mutuact.fr/" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo-icon.png" />
+  <meta property="og:url" content="https://www.sketchview.fr" />
+  <meta property="og:image" content="https://www.sketchview.fr/assets/pictures/sketchview-logo.png" />
 
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link href='https://fonts.googleapis.com' rel='preconnect' crossorigin />
-  <link rel="stylesheet"
-    href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap' />
-  <link rel="stylesheet"
-    href='https://fonts.googleapis.com/css?family=Raleway:wght@100,200,300;400;500;600;700&display=swap' />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sketchview" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "sketchview",
+      "url": "https://www.sketchview.fr",
+      "founder": "Nicolas DENYS de BONNAVENTURE",
+      "logo": "https://www.sketchview.fr/assets/pictures/sketchview-logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33-6-48-55-83-31",
+        "contactType": "Customer Service",
+        "areaServed": "FR",
+        "availableLanguage": "fr"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Lyon",
+        "addressRegion": "Rhone Alpes",
+        "postalCode": "",
+        "addressCountry": "FR"
+      }
+    }
+  </script>
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://www.sketchview.fr" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/sketchview-icon.png" />
+
+  <!-- Preconnect & Preload 
+  <link rel="preconnect" href="https://www.sketchview.fr" />
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/brands/logo-sketchview.png" type="image/png" fetchpriority="high">
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/pictures/nature.png" type="image/png" fetchpriority="high">
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/pictures/nature2.png" type="image/png" fetchpriority="high">
+  <link rel="preload" href="https://www.sketchview.fr/static/css/main.css" as="style" />
+  <link rel="preload" href="https://www.sketchview.fr/static/js/main.js" as="script"> -->
+
+  <!-- Preload CSS (non-blocking) 
+  <link rel="stylesheet" href="https://www.sketchview.fr/static/css/main.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+  <noscript>
+    <link rel="stylesheet" href="https://www.sketchview.fr/static/css/main.css">
+  </noscript> -->
+
+  <!-- Manifest -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <title>Mutuact</title>
+  <title>sketchview : dessinateur industriel à Lyon</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.backgroundImage = "url('https://www.sketchview.fr/assets/pictures/cubes.png'), linear-gradient(rgb(20, 73, 109), rgb(25, 99, 148))";
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  <script src="https://www.mutuact.fr/static/js/main.01c4bd8d.js"></script>
+        let futurContainer = document.querySelector('.futur__container');
+        if (futurContainer) {
+            observer.observe(futurContainer);
+        }
+    });
+  </script> 
+  <script defer src="https://www.sketchview.fr/static/js/main.js"></script> -->
 </body>
 
-</html>
+</html> 
