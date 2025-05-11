@@ -1,3 +1,4 @@
+import React from "react"
 import { Link as Video } from 'react-router-dom'
 import { Link } from 'react-scroll'
 import { faArrowCircleRight, faCirclePlay } from '@fortawesome/free-solid-svg-icons'

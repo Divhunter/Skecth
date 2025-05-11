@@ -1,3 +1,4 @@
+import React from "react"
 import pagesHeadersArray from '../../datas/pagesHeadersArray.json'
 import PagesHeaders from '../../components/PagesHeaders'
 import woman from '../../assets/pictures/woman.png'

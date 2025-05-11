@@ -1,3 +1,4 @@
+import React from "react"
 import { useNavigate, useParams } from 'react-router-dom'
 import { faArrowLeft, faPowerOff } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

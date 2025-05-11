@@ -1,3 +1,4 @@
+import React from "react"
 import { useState, useEffect } from 'react'
 import { gsap } from 'gsap'
 import img01 from '../../assets/pictures/img0-1.jpg'

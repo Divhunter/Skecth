@@ -1,3 +1,4 @@
+import React from "react"
 import { Link } from 'react-scroll'
 import pagesHeadersArray from '../../datas/pagesHeadersArray.json'
 import PagesHeaders from '../../components/PagesHeaders'

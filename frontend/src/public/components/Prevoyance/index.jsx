@@ -1,3 +1,4 @@
+import React from "react"
 import pagesHeadersArray from '../../datas/pagesHeadersArray.json'
 import PagesHeaders from '../PagesHeaders'
 import logoPrevoyance from '../../assets/pictures/logo-prevoyance.png'

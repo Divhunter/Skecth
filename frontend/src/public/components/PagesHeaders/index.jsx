@@ -1,3 +1,5 @@
+import React from "react"
+
 // styles
 import './m-pages-headers.css'
 import './d-pages-headers.css'

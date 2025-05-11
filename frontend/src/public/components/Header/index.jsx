@@ -1,3 +1,4 @@
+import React from "react"
 import { Link } from 'react-scroll'
 import { Link as GoTo} from 'react-router-dom'
 import { useState } from 'react'
