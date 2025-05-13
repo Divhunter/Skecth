@@ -148,7 +148,7 @@ const Costumers = () => {
 
   // Gérer la suppression de tous les projets
   const handleDeleteAllProjets = () => {
-    selectedProjetIds?.map((id) => handleDeleteProjet(id))
+    void selectedProjetIds?.forEach((id) => handleDeleteProjet(id));
     setShowModalConfirm(!showModalConfirm)
     setSelectedProjetIds([])
     setSelectMultipl(!selectMultipl)
@@ -164,7 +164,7 @@ const Costumers = () => {
     }
   };
 
-  // Gérer la sélection d'un projet
+  // Gérer la sélection d'un projet 
   const handleProjetSelectionChange = (projetId) => {
     if (selectedProjetIds?.includes(projetId)) {
       // Si le projet est déjà sélectionné, le désélectionner

@@ -10,30 +10,42 @@ module.exports = {
   babel: {
     plugins: [
       "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-optional-chaining"
+      "@babel/plugin-proposal-optional-chaining",
     ],
   },
   webpack: {
     configure: (webpackConfig) => {
+      // Activer HMR et Live Reload
       webpackConfig.devServer = {
         ...webpackConfig.devServer,
         hot: true,
         liveReload: true,
       };
 
+      // Watch options
       webpackConfig.watchOptions = {
         ignored: /node_modules/,
         aggregateTimeout: 300,
         poll: 1000,
       };
 
+      // Ajouter le support des fichiers .mjs (ECMAScript Modules)
+      webpackConfig.module.rules.push({
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: "javascript/auto",
+      });
+
+      // Supprimer les anciennes instances de WebpackManifestPlugin
       webpackConfig.plugins = webpackConfig.plugins.filter(
         (plugin) => !(plugin instanceof WebpackManifestPlugin)
       );
 
+      // Réécrire les noms de fichiers de sortie
       webpackConfig.output.filename = "static/js/[name].js";
       webpackConfig.output.chunkFilename = "static/js/[name].chunk.js";
 
+      // Modifier les options de MiniCssExtractPlugin
       webpackConfig.plugins = webpackConfig.plugins.map((plugin) => {
         if (plugin instanceof MiniCssExtractPlugin) {
           return new MiniCssExtractPlugin({
@@ -45,6 +57,7 @@ module.exports = {
         return plugin;
       });
 
+      // Ajouter WebpackManifestPlugin
       webpackConfig.plugins.push(
         new WebpackManifestPlugin({
           fileName: "asset-manifest.json",

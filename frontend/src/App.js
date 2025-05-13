@@ -6,18 +6,15 @@ import AdminRouter from './admin/AdminRouter'
 import Error from './_utils/Error'
 import CGU from './public/components/CGU'
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // styles
 import './styles/m-app.css'
 import './styles/t-d-app.css'
 
 import { ProjectContext } from './context/ProjetContext'
 import { AuthContext } from './context/AuthContext'
-
-import addNotification from 'react-push-notification'
-import notifSound from './_utils/notifSound.wav'
-import logo from './_utils/logo-icon.png'
-import io from 'socket.io-client';
-
 
 const App = () => {
 
