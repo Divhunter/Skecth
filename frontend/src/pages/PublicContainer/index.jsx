@@ -4,7 +4,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import Background from '../../public/components/Background'
-import Header from '../../public/components/Header'
+import ScetchHeader from '../../public/components/ScetchHeader'
 import Banner from '../../public/components/Banner'
 import About from '../../public/components/About'
 import Epargne from '../../public/components/Epargne'
@@ -87,7 +87,7 @@ const PublicContainer = () => {
 	return (
 		<>
 			<main>
-				<Header />
+				<ScetchHeader />
 				<Banner />
 				<About />
 				<Epargne />
