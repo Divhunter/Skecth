@@ -5,7 +5,6 @@
     height: 48vw;
     padding: 5vw 5vw 0 5vw;
     background-color: white;
-    z-index: 10000;
 }
 
 .sketchHeader__nav {
@@ -16,7 +15,6 @@
     text-align: center;
     align-items: center;
     background-color: white;
-    z-index: 10000;
 }
 
 .sketch-logo {

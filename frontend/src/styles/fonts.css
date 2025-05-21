@@ -1,0 +1,50 @@
+/*@font-face {
+    font-family: "Raleway-Light";
+    src: url("https://www.vowd.fr/assets/fonts/Raleway-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url("https://www.vowd.fr/assets/fonts/Raleway-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("https://www.vowd.fr/assets/fonts/Raleway-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url("https://www.vowd.fr/assets/fonts/Raleway-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("https://www.vowd.fr/assets/fonts/OpenSans-VariableFont_wdth,wght.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Michroma-Regular";
+    src: url("https://www.vowd.fr/assets/fonts/Michroma-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto-ExtraBold";
+    src: url("https://www.vowd.fr/assets/fonts/Roboto-ExtraBold.woff2") format("woff2");
+    font-display: swap;
+}*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Raleway-Light", sans-serif;
+    font-display: swap;
+    color: white;
+    overflow-x: hidden;
+}
