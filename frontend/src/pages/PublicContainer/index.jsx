@@ -3,20 +3,9 @@ import { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
-import Background from '../../public/components/Background'
-import ScetchHeader from '../../public/components/ScetchHeader'
-import Banner from '../../public/components/Banner'
-import About from '../../public/components/About'
-import Epargne from '../../public/components/Epargne'
-import Prevoyance from '../../public/components/Prevoyance'
-import Sante from '../../public/components/Sante'
-import Vowd from '../../public/components/Vowd'
-import Prof from '../../public/components/Prof'
-import Pret from '../../public/components/Pret'
-import Auto from '../../public/components/Auto'
-import Agences from '../../public/components/Agences'
-import Contact from '../../public/components/Contact'
-import Footer from '../../public/components/Footer'
+import SketchHeader from '../../public/components/SketchHeader'
+import SketchBanner from '../../public/components/SketchBanner'
+import SketchFooter from '../../public/components/SketchFooter'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 
@@ -87,20 +76,9 @@ const PublicContainer = () => {
 	return (
 		<>
 			<main>
-				<ScetchHeader />
-				<Banner />
-				<About />
-				<Epargne />
-				<Prevoyance />
-				<Sante />
-                <Vowd />
-                <Prof />
-                <Pret />
-                <Auto />
-                <Agences />
-				<Contact />
-				<Footer />
-                <Background />
+				<SketchHeader />
+				<SketchBanner />
+                <SketchFooter />
 			</main>
 		</>
 	) 

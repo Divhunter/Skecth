@@ -2,15 +2,15 @@ import React from "react"
 
 // styles
 import './m-sketchBanner.css'
-import './d-sketchBanner.css.css'
+import './d-sketchBanner.css'
 
 const SketchBanner = () => {
     return (
         <section className="sketchBanner">
-            <picture className="sketchBanner__picture">
+            <picture>
                 <source srcSet={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo-full.png`} type="image/png" loading="lazy" fetchpriority="low" />
                 <img 
-                    className="sketchBanner__picture__logo" 
+                    className="sketchBanner__picture sketchBanner-logo" 
                     src={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo-full.png`} 
                     width="4961" 
                     height="6373"  
@@ -20,10 +20,10 @@ const SketchBanner = () => {
                     decoding="async"
                 />
             </picture>
-            <picture className="sketchBanner__picture">
+            <picture>
                 <source srcSet={`${process.env.PUBLIC_URL}/assets/pictures/plume.png`} type="image/png" loading="lazy" fetchpriority="low" />
                 <img 
-                    className="sketchBanner__picture__logo" 
+                    className="sketchBanner__picture sketchBanner-plume" 
                     src={`${process.env.PUBLIC_URL}/assets/pictures/plume.png`} 
                     width="4961" 
                     height="6373"  
