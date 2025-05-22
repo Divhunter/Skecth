@@ -16,6 +16,10 @@
     color: white;
 }
 
+.sketchInfo__title span {
+    font-family: "Hey August", sans-serif;
+}
+
 .sketchInfo__container {
     position: relative;
     display: flex;

@@ -12,7 +12,7 @@ const SketchInfo = () => {
                 <span className="sketchInfo__container__triangle triangle2Info"></span>
                 <span className="sketchInfo__container__triangle triangle3Info"></span>
             </div>
-            <h1 className="sketchInfo__title">Info</h1>
+            <h1 className="sketchInfo__title">I<span>nfo</span></h1>
             <picture>
                 <source srcSet={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo-full.png`} type="image/png" loading="lazy" fetchpriority="low" />
                 <img 

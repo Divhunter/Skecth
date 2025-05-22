@@ -11,13 +11,13 @@
     font-display: swap;
 }
 
-/*@font-face {
+@font-face {
     font-family: "Raleway-Regular";
-    src: url("https://www.vowd.fr/assets/fonts/Raleway-Regular.woff2") format("woff2");
+    src: url("https://www.vowd.fr/assets/fonts/hey_august/Hey August.woff2") format("woff2");
     font-display: swap;
 }
 
-@font-face {
+/*@font-face {
     font-family: "Raleway-SemiBold";
     src: url("https://www.vowd.fr/assets/fonts/Raleway-SemiBold.woff2") format("woff2");
     font-display: swap;
