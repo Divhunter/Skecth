@@ -12,7 +12,7 @@ const SketchFooter = () => {
                 <span className="sketchFooter__separator_line sketchFooter__separator_line2"></span>
             </div>
             <p className="sketchFooter__slogan">Nous mettons notre expertise au service de votre succès.</p>
-            <div className="sketchFooter__underline"></div>
+            <span className="sketchFooter__slogan-underline"></span>
         </section>
     )
 }

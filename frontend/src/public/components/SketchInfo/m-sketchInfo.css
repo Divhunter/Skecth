@@ -1,0 +1,70 @@
+.sketchInfo {
+    position: relative;
+    margin-top: 46.8vw;
+    width: 100%;
+    height: 90vw;
+    padding: 0 5vw 0 5vw;
+    background-color: rgb(45,49,54);
+}
+
+.sketchInfo__title {
+    position: relative;
+    text-align: center;
+    font-family: "Komigo3D-Regular", sans-serif;
+    font-size: 5vw;
+    font-weight: normal;
+    color: white;
+}
+
+.sketchInfo__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: start;
+    width: 100%;
+    height: 10vw;
+}
+
+.sketchInfo__container__triangle {
+    position: relative;
+    top: 0;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 13px solid transparent;
+    border-left : 13px solid transparent;
+    transform: rotate(180deg);
+    background-color: transparent;
+}
+
+.triangle2Info {
+    margin: 0 18.5vw 0 18.5vw;
+}
+
+.triangle1Info {
+    border-bottom : 22px solid white;
+}
+
+.triangle2Info,
+.triangle3Info {
+    border-bottom : 22px solid rgb(87, 90, 94);
+}
+
+.sketchInfo-logo {
+    position: relative;
+    top: 10vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    margin-bottom: 12.5vw;
+}
+
+.sketchInfo-plume {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35vw;
+    height: auto;
+    rotate: -12deg;
+}

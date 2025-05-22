@@ -1,16 +1,17 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("http://localhost:3000/assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2");
+    /*src: url({`${process.env.PUBLIC_URL}/assets/fonts/Poppins/Poppins-Regular.woff2`}) format("woff2");*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Komigo3D-Regular";
+    src: url("http://localhost:3000/assets/fonts/Komigo/Komigo3D-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
 /*@font-face {
-    font-family: "Raleway-Light";
-    src: url("https://www.vowd.fr/assets/fonts/Raleway-Light.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Raleway-Medium";
-    src: url("https://www.vowd.fr/assets/fonts/Raleway-Medium.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
     font-family: "Raleway-Regular";
     src: url("https://www.vowd.fr/assets/fonts/Raleway-Regular.woff2") format("woff2");
     font-display: swap;
@@ -43,8 +44,9 @@
 body {
     margin: 0 auto;
     padding: 0;
-    font-family: "Raleway-Light", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-display: swap;
     color: white;
     overflow-x: hidden;
+    background-color: rgb(45,49,54);
 }

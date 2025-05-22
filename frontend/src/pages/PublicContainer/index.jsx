@@ -4,7 +4,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
 import SketchHeader from '../../public/components/SketchHeader'
-import SketchBanner from '../../public/components/SketchBanner'
+//import SketchBanner from '../../public/components/SketchBanner'
+import SketchInfo from '../../public/components/SketchInfo'
 import SketchFooter from '../../public/components/SketchFooter'
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
@@ -77,7 +78,8 @@ const PublicContainer = () => {
 		<>
 			<main>
 				<SketchHeader />
-				<SketchBanner />
+				{/*<SketchBanner />*/}
+                <SketchInfo />
                 <SketchFooter />
 			</main>
 		</>
