@@ -7,16 +7,12 @@
 @font-face {
     font-family: 'Poppins-SemiBold';
     src: url('http://localhost:3000/assets/fonts/Poppins/Poppins-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Poppins-ExtraLight';
-    src:  url("https://www.vowd.fr/assets/fonts/PoppinsExtraLight/Poppins-ExtraLight.woff2") format('woff2');
-    font-weight: 200;
-    font-style: normal;
+    src:  url("https://www.vowd.fr/assets/fonts/Poppins/Poppins-ExtraLight.woff2") format('woff2');
     font-display: swap;
 }
 

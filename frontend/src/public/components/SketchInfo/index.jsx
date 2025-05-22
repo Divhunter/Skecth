@@ -38,6 +38,17 @@ const SketchInfo = () => {
                 <span className="separator_line separator_line1"></span>
                 <span className="separator_line separator_line2"></span>
             </div>
+            <header>
+                <span>Qui sommes nous ?</span>
+            </header>
+            <p className="sketchInfo__text">
+                <span className="sketchInfo__span1">Sketch</span> <span className="sketchInfo__span2">View</span> est une société de dessin 3D et de création graphique qui <span className="sketchInfo__span4">accompagne</span> les antreprises dans leurs <span className="sketchInfo__span5">projets techniques</span> et <span className="sketchInfo__span3">créatifs</span>.
+                <br />
+                Nous <span className="sketchInfo__span4">VALORISONS</span> vos dossiers de réponse aux appels d'offres grâce à des <span className="sketchInfo__span5">visuels percutants</span>.
+                <br />
+                <br />
+                <span className="sketchInfo__span6">#</span> <span className="sketchInfo__span7">Donnons</span> <span className="sketchInfo__span8">VIE</span> <span className="sketchInfo__span7">à vos projets</span>
+            </p>
         </section>
     )
 }
