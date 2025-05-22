@@ -1,6 +1,22 @@
 @font-face {
     font-family: "Poppins-Regular";
-    src: url("http://localhost:3000/assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2");
+    src: url("http://localhost:3000/assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('http://localhost:3000/assets/fonts/Poppins/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src:  url("https://www.vowd.fr/assets/fonts/PoppinsExtraLight/Poppins-ExtraLight.woff2") format('woff2');
+    font-weight: 200;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -11,18 +27,12 @@
 }
 
 @font-face {
-    font-family: "Hey August";
-    src: url("http://localhost:3000/assets/fonts/hey_august/Hey+August.woff2") format("woff2");
+    font-family: "HeyAugust";
+    src: url("http://localhost:3000/assets/fonts/heyAugust/HeyAugust.woff2") format("woff2");
     font-display: swap;
 }
 
 /*@font-face {
-    font-family: "Raleway-SemiBold";
-    src: url("https://www.vowd.fr/assets/fonts/Raleway-SemiBold.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
     font-family: "OpenSans";
     src: url("https://www.vowd.fr/assets/fonts/OpenSans-VariableFont_wdth,wght.woff2") format("woff2");
     font-display: swap;
@@ -43,7 +53,7 @@
 body {
     margin: 0 auto;
     padding: 0;
-    font-family: "Poppins-Bold", sans-serif;
+    font-family: "Poppins-Regular", sans-serif;
     font-display: swap;
     color: white;
     overflow-x: hidden;
