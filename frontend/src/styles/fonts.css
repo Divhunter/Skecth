@@ -1,19 +1,18 @@
 @font-face {
     font-family: "Poppins-Regular";
     src: url("http://localhost:3000/assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2");
-    /*src: url({`${process.env.PUBLIC_URL}/assets/fonts/Poppins/Poppins-Regular.woff2`}) format("woff2");*/
     font-display: swap;
 }
 
 @font-face {
     font-family: "Komigo3D-Regular";
-    src: url("http://localhost:3000/assets/fonts/Komigo/Komigo3D-Regular.woff2") format("woff2");
+    src: url("http://localhost:3000/assets/fonts/komigo/Komigo3D-Regular.woff2") format("woff2");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Raleway-Regular";
-    src: url("https://www.vowd.fr/assets/fonts/hey_august/Hey August.woff2") format("woff2");
+    font-family: "Hey August";
+    src: url("http://localhost:3000/assets/fonts/hey_august/Hey+August.woff2") format("woff2");
     font-display: swap;
 }
 
