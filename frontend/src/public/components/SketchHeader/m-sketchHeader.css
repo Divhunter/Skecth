@@ -5,6 +5,7 @@
     height: auto;
     padding-top: 5vw;
     background-color: white;
+    z-index: 10000;
 }
 
 .sketchHeader__nav {

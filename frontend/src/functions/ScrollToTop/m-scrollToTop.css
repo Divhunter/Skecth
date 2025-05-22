@@ -9,7 +9,7 @@
 
 .icon-position {
     position: fixed;
-    top: 90vw;
+    top: 100vw;
     right: 25px;
     z-index: 20;
 }

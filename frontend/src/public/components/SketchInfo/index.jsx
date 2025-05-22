@@ -26,7 +26,7 @@ const SketchInfo = () => {
                     decoding="async"
                 />
             </picture>
-            <p className="sketchInfo__text">
+            <p className="sketchInfo__text sketchInfo__text--center">
                 <span className="sketchInfo__span1">Sketch</span> <span className="sketchInfo__span2">View</span> est spécialisé dans la <span className="sketchInfo__span3">création</span> de contenus <span className="sketchInfo__span4">innovants</span>.
                 <br />
                 Nous <span className="sketchInfo__span4">VALORISONS</span> vos dossiers de réponse aux appels d'offres grâce à des <span className="sketchInfo__span5">visuels percutants</span>.
@@ -39,15 +39,56 @@ const SketchInfo = () => {
                 <span className="separator_line separator_line2"></span>
             </div>
             <header>
-                <span>Qui sommes nous ?</span>
+                <span className="title">Qui sommes nous ?</span>
+                <span className="title-underline"></span>
             </header>
-            <p className="sketchInfo__text">
+            <p className="sketchInfo__text sketchInfo__text--start">
                 <span className="sketchInfo__span1">Sketch</span> <span className="sketchInfo__span2">View</span> est une société de dessin 3D et de création graphique qui <span className="sketchInfo__span4">accompagne</span> les antreprises dans leurs <span className="sketchInfo__span5">projets techniques</span> et <span className="sketchInfo__span3">créatifs</span>.
-                <br />
-                Nous <span className="sketchInfo__span4">VALORISONS</span> vos dossiers de réponse aux appels d'offres grâce à des <span className="sketchInfo__span5">visuels percutants</span>.
-                <br />
-                <br />
-                <span className="sketchInfo__span6">#</span> <span className="sketchInfo__span7">Donnons</span> <span className="sketchInfo__span8">VIE</span> <span className="sketchInfo__span7">à vos projets</span>
+            </p>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                Grâce à une expertise pointue et des outils performants, nous offrons des solutions visuelles adaptées pour :
+            </p> 
+            <ul className="sketchInfo__text sketchInfo__text--ulMargin">
+                <li>
+                    <span className="sketchInfo__span4">RENFORCER</span> vos dossier de réponse aux appels d'offres.
+                </li>
+                <li>
+                    <span className="sketchInfo__span4">EXPLIQUER</span> clairement vos plans d'installation de chantier et vos modes opératoires.
+                </li>
+                <li>
+                    <span className="sketchInfo__span4">ILLUSTRER</span> vos idées de manière innovante et percutante.
+                </li>
+            </ul>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                Nous travaillons en étroite <span className="sketchInfo__span4">collaboration</span> avec nos clients pour transformer des concepts complexes en visuels <span className="sketchInfo__span9">accessibles</span> et <span className="sketchInfo__span10">engageants</span>
+            </p>
+            <header>
+                <span className="title">Pourquoi nous choisir ?</span>
+                <span className="title-underline"></span>
+            </header>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                <span className="sketchInfo__span11">POLYVALENCE CR&Eacute;ATIVE :</span>
+                <li className="sketchInfo__text__listOne">
+                    Une large gamme de <span className="sketchInfo__span2">supports</span>, du <span className="sketchInfo__span12">3D</span> au <span className="sketchInfo__span12">dessin manuel</span>.
+                </li>
+            </p>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                <span className="sketchInfo__span11">IMPACT VISUEL GARANTI :</span>
+                <li className="sketchInfo__text__listOne">
+                    Des <span className="sketchInfo__span9">rendus</span> <span className="sketchInfo__span4">professionnels</span> qui mettent en valeur vos projets.
+                </li>
+            </p>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                <span className="sketchInfo__span11">CLART&Eacute; ET PR&Eacute;CISION :</span>
+                <li className="sketchInfo__text__listOne">
+                    Des <span className="sketchInfo__span13">visuels</span> conçus pour <span className="sketchInfo__span14">simplifier la compréhension</span> de concepts complexes.
+                </li>
+            </p>
+            <p className="sketchInfo__text sketchInfo__text--start">
+                <span className="sketchInfo__span11">SERVICE SUR-MESURE :</span>
+                <li className="sketchInfo__text__listOne">
+                    Une <span className="sketchInfo__span12">approche</span> <span className="sketchInfo__span1">personnalisée</span> pour répondre à vos attentes spécifiques.
+                </li>
             </p>
         </section>
     )
