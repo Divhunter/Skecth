@@ -17,8 +17,8 @@ const SketchBanner = () => {
                 <img 
                     className="sketchBanner__picture sketchBanner-logo" 
                     src={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo-full.png`} 
-                    width="4961" 
-                    height="6373"  
+                    width="636" 
+                    height="250"  
                     loading="lazy"  
                     alt="sketchview logo"  
                     fetchpriority="low"
@@ -30,8 +30,8 @@ const SketchBanner = () => {
                 <img 
                     className="sketchBanner__picture sketchBanner-plume" 
                     src={`${process.env.PUBLIC_URL}/assets/pictures/plume.png`} 
-                    width="4961" 
-                    height="6373"  
+                    width="593" 
+                    height="133"  
                     loading="lazy"  
                     alt="plume"  
                     fetchpriority="low"
