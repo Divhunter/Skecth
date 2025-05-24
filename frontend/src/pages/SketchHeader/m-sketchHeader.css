@@ -43,7 +43,7 @@
     height: auto;
 }
 
-.flash {
+/*.flash {
     animation: flash-effect 0.3s ease-in-out;
 }
 
@@ -60,4 +60,4 @@
     opacity: 1;
     transform: scale(1);
     }
-}
+}*/

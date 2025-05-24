@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import PublicContainer from '../pages/PublicContainer'
 import Error from '../_utils/Error'
@@ -16,4 +16,4 @@ const PublicRouter = () => {
     )
 }
 
-export default PublicRouter
+export default PublicRouter*/

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import logoMutuactP from '../../assets/pictures/logo-mutuact-blanc-solo.png'
+import logoMutuactP from '../../public/assets/pictures/logo-mutuact-blanc-solo.png'
 
 // styles
 import './m-cgu.css'

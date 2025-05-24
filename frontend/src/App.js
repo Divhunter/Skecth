@@ -1,10 +1,16 @@
 import React, { useContext, useEffect } from 'react'
 import ScrollToTop from './functions/ScrollToTop'
 import { Routes, Route } from 'react-router-dom'
-import PublicRouter from './public/PublicRouter'
+// import PublicRouter from './public/PublicRouter'
+import SketchBanner from './pages/SketchBanner'
+import SketchCrea from './pages/SketchCrea'
+import SketchHeader from './pages/SketchHeader'
+import SketchFooter from './pages/SketchFooter'
+import SketchInfo from './pages/SketchInfo'
+import SketchTchat from './pages/SketchTchat'
+import  CGU from './pages/CGU'
 import AdminRouter from './admin/AdminRouter'
 import Error from './_utils/Error'
-import CGU from './public/components/CGU'
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -26,71 +32,19 @@ const App = () => {
         window.scrollTo(0, 0)
     }
 
-    // const sendNotifAndSound = (firstName) => {
-    //     addNotification({
-    //         title: '2BRealisation',
-    //         message: `${firstName} vous a envoyé un message`,
-    //         duration: 7000,
-    //         icon: logo,
-    //         native: true,
-    //         onClick: () => window.location = process.env.REACT_APP_DASHBOARD_URL_NEW
-    //     })
-    //     // Jouer un son
-    //     setTimeout(() => {
-    //         const audio = new Audio(notifSound);
-    //         audio.play();
-
-    //     }, 100);
-    // }
-
-    // useEffect(() => {
-    //     const socket = io(process.env.REACT_APP_API_URL);
-    //     if (isAuthenticated === true) {
-
-    //         socket.on('connect', () => {
-    //             console.log('Connected to server');
-    //         });
-
-    //         // Écoute des nouveaux projets et affichage de notification
-    //         socket.on('nouveauProjet', (newProjet) => {
-    //             // Créer un nouveau tableau avec les anciens projets et le nouveau projet
-    //             const updatedProjets = [...projets, newProjet];
-    //             setProjets(updatedProjets);
-    //             console.log('New data from server:', newProjet);
-    //             sendNotifAndSound(newProjet.firstName)
-    //             socket.on('disconnect', () => {
-    //                 console.log('Disconnected from server');
-    //             });
-    //         });
-    //         // Écoute des nouveaux messages si le projet existe et affichage de notification
-    //         socket.on('updatedProjet', (updatedProjet) => {
-    //             // Mettre à jour l'état local pour refléter le nouveau projet
-    //             const updatedProjets = projets.map((projet) => {
-    //               if (projet._id === updatedProjet._id) {
-    //                 return updatedProjet;
-    //               }
-    //               return projet;
-    //             });
-          
-    //             setProjets(updatedProjets);
-    //             sendNotifAndSound(updatedProjet.firstName)
-    //             console.log('New data from server:', updatedProjet);
-    //           });
-    //     }
-
-    //     return () => {
-    //         socket.disconnect();
-    //     };
-    // }, [projets, isAuthenticated]);
-
     return (
         <div>
-            <Routes>
-                <Route exact path='/*' element={ <PublicRouter /> } />
-                <Route path='/dashboard/*' element={ <AdminRouter /> } />
-                <Route path='/CGU' element={ <CGU /> } />
-                <Route path='*' element={ <Error /> } />
-            </Routes>
+            <SketchHeader />
+                <Routes>
+                    <Route exact path='/' element={ <SketchBanner /> } />
+                    <Route path='/SketchInfo' element={ <SketchInfo /> } />
+                    <Route path='/SketchCrea' element={ <SketchCrea /> } />
+                    <Route path='/SketchTchat' element={ <SketchTchat /> } />
+                    <Route path='/dashboard/*' element={ <AdminRouter /> } />
+                    <Route path='/CGU' element={ <CGU /> } />
+                    <Route path='/*' element={ <Error /> } />
+                </Routes>
+            <SketchFooter />
             <ScrollToTop />
         </div>
     )
