@@ -15,19 +15,20 @@
 }
 
 .icon-style {
-    background-color: rgba(52, 190, 167, .6);
-    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid 2px rgb(241,162,49);
+    border-radius: 50%;
     height: 50px;
     width: 50px;
-    color: white;
+    color: rgb(241,162,49);
     cursor: pointer;
     transition: all .7s ease-in-out;
 }
 
 .icon-style:hover {
     animation: none;
-    background: rgb(52, 190, 167);
-    color: white;
+    border: solid 2px rgb(88, 132, 189);
+    color: rgb(88, 132, 189);
 }
 
 /********************************************* media queries ************************************************/
