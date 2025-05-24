@@ -28,9 +28,9 @@ const App = () => {
     const { isAuthenticated, isLoading } = useContext(AuthContext);
 
 
-    window.onload = () => {
+    useEffect(() => {
         window.scrollTo(0, 0)
-    }
+    }, [])
 
     return (
         <div>

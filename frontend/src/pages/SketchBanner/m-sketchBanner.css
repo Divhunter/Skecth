@@ -5,6 +5,12 @@
     height: 90vw;
     padding: 0 5vw 0 5vw;
     background-color: rgb(45,49,54);
+    animation: reveal1 ease 2s normal forwards 1;
+}
+
+@keyframes reveal1 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .sketchBanner__container {

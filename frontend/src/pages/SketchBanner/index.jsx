@@ -1,4 +1,5 @@
 import React from "react"
+import { useEffect } from 'react'
 
 // styles
 import './m-sketchBanner.css'
@@ -6,10 +7,10 @@ import './d-sketchBanner.css'
 
 const SketchBanner = () => {
 
-    window.onload = () => {
-        window.scrollTo(0, 0)
-    }
-    
+    useEffect(() => {
+            window.scrollTo(0, 0)
+        }, [])
+
     return (
         <section className="sketchBanner">
             <div className="sketchBanner__container">

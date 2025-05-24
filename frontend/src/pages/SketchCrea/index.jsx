@@ -1,10 +1,17 @@
 import React from "react"
+import { useEffect } from 'react'
+import { Link as Video } from 'react-router-dom'
 
 // styles
 import './m-sketchCrea.css'
 import './d-sketchCrea.css'
 
 const SketchCrea = () => {
+
+    useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
     return (
         <section className="sketchCrea">
             <div className="sketchCrea__container">
@@ -102,21 +109,23 @@ const SketchCrea = () => {
                     </i>
                 </li>
             </p>
-            <div className="sketchCrea__containerImg img3" >
-                <picture>
-                    <source srcSet={`${process.env.PUBLIC_URL}/assets/banners/Video.jpg`} type="image/jpg" loading="lazy" fetchpriority="low" />
-                    <img 
-                        className="sketchCrea__containerImg--img" 
-                        src={`${process.env.PUBLIC_URL}/assets/banners/Video.jpg`} 
-                        width="12000" 
-                        height="2400"   
-                        loading="lazy"  
-                        alt="dessin technique"  
-                        fetchpriority="low"
-                        decoding="async"
-                    />
-                </picture>
-            </div>
+            <Video to="https://sketchfab.com/3d-models/pont-de-lay-2b5d8b9faf1247efb6e39194d8423e69">
+                <div className="sketchCrea__containerImg img3" >
+                    <picture>
+                        <source srcSet={`${process.env.PUBLIC_URL}/assets/banners/Video.jpg`} type="image/jpg" loading="lazy" fetchpriority="low" />
+                        <img 
+                            className="sketchCrea__containerImg--img" 
+                            src={`${process.env.PUBLIC_URL}/assets/banners/Video.jpg`} 
+                            width="12000" 
+                            height="2400"   
+                            loading="lazy"  
+                            alt="dessin technique"  
+                            fetchpriority="low"
+                            decoding="async"
+                        />
+                    </picture>
+                </div>
+            </Video>
             <p className="sketchCrea__text sketchCrea__text--start">
                 <span className="sketchCrea__span1">4 - </span><span className="sketchCrea__span11">Dessins style "BD"</span>
                 <li className="sketchCrea__text__listOne">

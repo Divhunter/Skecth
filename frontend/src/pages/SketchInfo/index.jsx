@@ -1,10 +1,16 @@
 import React from "react"
+import { useEffect } from 'react'
 
 // styles
 import './m-sketchInfo.css'
 import './d-sketchInfo.css'
 
 const SketchInfo = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <section className="sketchInfo">
             <div className="sketchInfo__container">
