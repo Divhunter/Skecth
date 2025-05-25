@@ -78,8 +78,8 @@ textarea {
     display : inline-block;
     height : 0;
     width : 0;
-    border-right : 13px solid transparent;
-    border-left : 13px solid transparent;
+    border-right : 3.5vw solid transparent;
+    border-left : 3.5vw solid transparent;
     transform: rotate(180deg);
     background-color: transparent;
 }

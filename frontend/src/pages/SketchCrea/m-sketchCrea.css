@@ -3,13 +3,13 @@
 }
 
 .triangle2Crea {
-    border-bottom : 25px solid white;
+    border-bottom : 7vw solid white;
 }
 
 .triangle1Crea,
 .triangle3Crea {
-    border-bottom : 25px solid rgb(87, 90, 94);
-    /*border-bottom : 25px solid rgb(176, 183, 192);*/
+    border-bottom : 7vw solid rgb(87, 90, 94);
+    /*border-bottom : 7vw solid rgb(176, 183, 192);*/
 }
 
 .sketchCrea__containerImg {
