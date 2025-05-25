@@ -13,11 +13,11 @@ const SketchCrea = () => {
 	}, [])
 
     return (
-        <section className="sketchCrea">
-            <div className="sketchCrea__container">
-                <span className="sketchCrea__container__triangle triangle1Crea"></span>
-                <span className="sketchCrea__container__triangle triangle2Crea"></span>
-                <span className="sketchCrea__container__triangle triangle3Crea"></span>
+        <section className="sketch">
+            <div className="sketch__container">
+                <span className="sketch__container__triangle triangle1Crea"></span>
+                <span className="sketch__container__triangle triangle2Crea"></span>
+                <span className="sketch__container__triangle triangle3Crea"></span>
             </div>
             <h1 className="sketch__title">C<span>R&Eacute;A</span></h1>
             <picture>
@@ -33,13 +33,13 @@ const SketchCrea = () => {
                     decoding="async"
                 />
             </picture>
-            <p className="sketchCrea__text sketchCrea__text--center">
-                <span className="sketchCrea__span1">Sketch</span> <span className="sketchCrea__span2">View</span> accompagne vos projet où que vous soyez.
+            <p className="sketch__text sketch__text--center">
+                <span className="sketch__span1">Sketch</span> <span className="sketch__span2">View</span> accompagne vos projet où que vous soyez.
                 <br />
-                Nous intervenons partout en <span className="sketchCrea__span13">France</span> et à l'<span className="sketchCrea__span13">international</span>.
+                Nous intervenons partout en <span className="sketch__span13">France</span> et à l'<span className="sketch__span13">international</span>.
                 <br />
                 <br />
-                <span className="sketchCrea__span6">#</span> <span className="sketchCrea__span8">DISPONIBLE</span> <span className="sketchCrea__span7">à tous les coins de rues</span>
+                <span className="sketch__span6">#</span> <span className="sketch__span8">DISPONIBLE</span> <span className="sketch__span7">à tous les coins de rues</span>
             </p>
             <div className="separator">
                 <span className="separator_line separator_line1"></span>
@@ -49,9 +49,9 @@ const SketchCrea = () => {
                 <span className="title">Nos services</span>
                 <span className="title-underline"></span>
             </header>
-            <p className="sketchCrea__text sketchCrea__text--start">
-                <span className="sketchCrea__span2">1 - </span><span className="sketchCrea__span11">Création de visuels 3D sur mesure</span>
-                <li className="sketchCrea__text__listOne">
+            <p className="sketch__text sketch__text--start">
+                <span className="sketch__span2">1 - </span><span className="sketch__span11">Création de visuels 3D sur mesure</span>
+                <li className="sketch__text__listOne">
                     <i>
                         Modélisations réalistes pour vos projets techniques et architecturaux.
                         <br />
@@ -74,9 +74,9 @@ const SketchCrea = () => {
                     />
                 </picture>
             </div>
-            <p className="sketchCrea__text sketchCrea__text--start">
-                <span className="sketchCrea__span1">2 - </span><span className="sketchCrea__span11">Plans d'installation de chantier</span>
-                <li className="sketchCrea__text__listOne">
+            <p className="sketch__text sketch__text--start">
+                <span className="sketch__span1">2 - </span><span className="sketch__span11">Plans d'installation de chantier</span>
+                <li className="sketch__text__listOne">
                     <i>
                         Plans clairs et détaillés pour une compréhension optimale.
                         <br />
@@ -99,9 +99,9 @@ const SketchCrea = () => {
                     />
                 </picture>
             </div>
-            <p className="sketchCrea__text sketchCrea__text--start">
-                <span className="sketchCrea__span2">3 - </span><span className="sketchCrea__span11">Vidéos immersives et explicatives</span>
-                <li className="sketchCrea__text__listOne">
+            <p className="sketch__text sketch__text--start">
+                <span className="sketch__span2">3 - </span><span className="sketch__span11">Vidéos immersives et explicatives</span>
+                <li className="sketch__text__listOne">
                     <i>
                         Animations 3D pour illustrer des processus ou des modes opératoires.
                         <br />
@@ -126,9 +126,9 @@ const SketchCrea = () => {
                     </picture>
                 </div>
             </Video>
-            <p className="sketchCrea__text sketchCrea__text--start">
-                <span className="sketchCrea__span1">4 - </span><span className="sketchCrea__span11">Dessins style "BD"</span>
-                <li className="sketchCrea__text__listOne">
+            <p className="sketch__text sketch__text--start">
+                <span className="sketch__span1">4 - </span><span className="sketch__span11">Dessins style "BD"</span>
+                <li className="sketch__text__listOne">
                     <i>
                         Créations originales sur tablette graphique pour apporter une touche unique.
                         <br />

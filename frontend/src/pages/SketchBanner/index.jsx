@@ -12,11 +12,11 @@ const SketchBanner = () => {
         }, [])
 
     return (
-        <section className="sketchBanner">
-            <div className="sketchBanner__container">
-                <span className="sketchBanner__container__triangle triangle1Banner"></span>
-                <span className="sketchBanner__container__triangle triangle2Banner"></span>
-                <span className="sketchBanner__container__triangle triangle3Banner"></span>
+        <section className="sketch">
+            <div className="sketch__container">
+                <span className="sketch__container__triangle triangle1Banner"></span>
+                <span className="sketch__container__triangle triangle2Banner"></span>
+                <span className="sketch__container__triangle triangle3Banner"></span>
             </div>
             <picture>
                 <source srcSet={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo-full.png`} type="image/png" loading="lazy" fetchpriority="low" />

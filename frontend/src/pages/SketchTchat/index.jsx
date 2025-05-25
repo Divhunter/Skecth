@@ -12,11 +12,11 @@ const SketchTchat = () => {
     }, [])
 
     return (
-        <section className="sketchTchat">
-            <div className="sketchTchat__container">
-                <span className="sketchTchat__container__triangle triangle1Tchat"></span>
-                <span className="sketchTchat__container__triangle triangle2Tchat"></span>
-                <span className="sketchTchat__container__triangle triangle3Tchat"></span>
+        <section className="sketch">
+            <div className="sketch__container">
+                <span className="sketch__container__triangle triangle1Tchat"></span>
+                <span className="sketch__container__triangle triangle2Tchat"></span>
+                <span className="sketch__container__triangle triangle3Tchat"></span>
             </div>
             <h1 className="sketch__title">T<span>CHAT</span></h1>
             <picture>
@@ -32,13 +32,13 @@ const SketchTchat = () => {
                     decoding="async"
                 />
             </picture>
-            <p className="sketchTchat__text sketchTchat__text--center">
-                <span className="sketchTchat__span1">Sketch</span> <span className="sketchTchat__span2">View</span> est à votre écoute pour répondre à vos besoins.
+            <p className="sketch__text sketch__text--center">
+                <span className="sketch__span1">Sketch</span> <span className="sketch__span2">View</span> est à votre écoute pour répondre à vos besoins.
                 <br />
-                Notre mission est de rendre vos propositions <span className="sketchTchat__span4">claires</span>, <span className="sketchTchat__span3">attrayantes</span> et <span className="sketchTchat__span5">convaicantes</span>.
+                Notre mission est de rendre vos propositions <span className="sketch__span4">claires</span>, <span className="sketch__span3">attrayantes</span> et <span className="sketch__span5">convaicantes</span>.
                 <br />
                 <br />
-                <span className="sketchTchat__span6">#</span> <i><span className="sketchTchat__span2">Faites-nous</span> <span className="sketchTchat__span1">CONFIANCE</span></i>
+                <span className="sketch__span6">#</span> <i><span className="sketch__span2">Faites-nous</span> <span className="sketch__span1">CONFIANCE</span></i>
             </p>
             <div className="separator">
                 <span className="separator_line separator_line1"></span>

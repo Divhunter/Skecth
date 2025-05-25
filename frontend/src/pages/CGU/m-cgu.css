@@ -3,8 +3,16 @@
 /**********************************************************************************************/
 
 .cgu {
+    position: absolute;
     padding: 10vw 7vw 10vw 7vw;
-    color: black;
+    z-index: 15000;
+    background-color: rgb(45,49,54);
+    animation: reveal1 ease 2s normal forwards 1;
+}
+
+@keyframes reveal1 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 .cgu__logo-mutuact {
@@ -31,9 +39,21 @@
 }
 
 .cgu > p {
-    font-family: Open, sans-serif;
+    /*font-family: Open, sans-serif;
     font-size: 5vw;
-    line-height: 7vw;
+    line-height: 7vw;*/
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    font-family: "Poppins-ExtraLight", sans-serif;
+    font-size: 3.91vw;
+    font-weight: 200;
+    line-height: 6.3vw;
+    letter-spacing: .15vw;
+    color: rgb(176, 183, 192);
 }
 
 .cgu > li {
