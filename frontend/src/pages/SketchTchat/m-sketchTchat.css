@@ -48,11 +48,30 @@
     cursor: pointer;
 }
 
+.sketch__contact__buttons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    margin-top: 2vw;
+}
+
+.sketch__contact__buttons__pic {
+    position: relative;
+    width: 38vw;
+    height: auto;
+    margin: 0 auto;
+}
+
 .sketchT__Form {
     position: relative;
     display: flex;
     width: 100%;
     height: auto;
-    padding-bottom: 14vw;
+    padding-bottom: 10vw;
     background-color: transparent;
 }

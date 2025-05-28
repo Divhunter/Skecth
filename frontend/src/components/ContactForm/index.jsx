@@ -37,7 +37,7 @@ const ContactForm = () => {
     <div className="container mt-5">
       <form ref={form} onSubmit={sendEmail} style={{ maxWidth: '600px' }} className="custom-form">
         <div className="mb-3">
-          <label className="form-label text-white">Nom / Prénom *</label>
+          <label className="form-label text-white">Nom/Prénom *</label>
           <input
             type="text"
             name="name"
