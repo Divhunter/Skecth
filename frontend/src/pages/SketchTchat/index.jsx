@@ -1,5 +1,6 @@
 import React from "react"
-import { useEffect } from 'react'
+import { useEffect } from "react"
+import ContactForm from "../../components/ContactForm"
 
 // styles
 import './m-sketchTchat.css'
@@ -48,6 +49,9 @@ const SketchTchat = () => {
                 <span className="title">Votre satisfaction est notre priorité !</span>
                 <span className="title-underline"></span>
             </header>
+            <div className="sketchT__Form">
+                <ContactForm />
+            </div>
         </section>
     )
 }

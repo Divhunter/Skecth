@@ -47,3 +47,12 @@
 .img3 {
     cursor: pointer;
 }
+
+.sketchT__Form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 14vw;
+    background-color: transparent;
+}
