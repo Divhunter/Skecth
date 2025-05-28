@@ -11,6 +11,10 @@ import './d-sketchTchat.css'
 
 const SketchTchat = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const [isHovered1, setIsHovered1] = useState(false)
     const [isHovered2, setIsHovered2] = useState(false)
 
@@ -22,11 +26,7 @@ const SketchTchat = () => {
         setTimeout(() => setFlashState(false), 100)
     }
 
-    const phoneNumber = '+33648558331';
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+    const phoneNumber = '+33648558331'
 
     return (
         <section className="sketch">
