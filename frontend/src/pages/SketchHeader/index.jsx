@@ -65,8 +65,8 @@ const SketchHeader = () => {
                                         ? `${process.env.PUBLIC_URL}/assets/pictures/Home2.png`
                                         : `${process.env.PUBLIC_URL}/assets/pictures/Home1.png`
                                 }
-                                width="4961"
-                                height="6373"
+                                width="304"
+                                height="384"
                                 loading="lazy"
                                 alt="Icône information"
                                 decoding="async"
@@ -99,8 +99,8 @@ const SketchHeader = () => {
                                         ? `${process.env.PUBLIC_URL}/assets/pictures/projet2.png`
                                         : `${process.env.PUBLIC_URL}/assets/pictures/projet1.png`
                                 }
-                                width="4961"
-                                height="6373"
+                                width="304"
+                                height="384"
                                 loading="lazy"
                                 alt="Pointe de stylo"
                                 decoding="async"
@@ -133,8 +133,8 @@ const SketchHeader = () => {
                                         ? `${process.env.PUBLIC_URL}/assets/pictures/contact2.png`
                                         : `${process.env.PUBLIC_URL}/assets/pictures/contact1.png`
                                 }
-                                width="4961"
-                                height="6373"
+                                width="304"
+                                height="384"
                                 loading="lazy"
                                 alt="Icône utilisateur"
                                 decoding="async"
