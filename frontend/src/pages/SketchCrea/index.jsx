@@ -65,8 +65,8 @@ const SketchCrea = () => {
                     <img 
                         className="sketchCrea__containerImg--img" 
                         src={`${process.env.PUBLIC_URL}/assets/banners/images.jpg`} 
-                        width="12000" 
-                        height="2400"  
+                        width="1600" 
+                        height="320"  
                         loading="lazy"  
                         alt="multiples images"  
                         fetchpriority="low"
@@ -90,8 +90,8 @@ const SketchCrea = () => {
                     <img 
                         className="sketchCrea__containerImg--img" 
                         src={`${process.env.PUBLIC_URL}/assets/banners/PIC.jpg`} 
-                        width="12000" 
-                        height="2400"   
+                        width="1600" 
+                        height="320"   
                         loading="lazy"  
                         alt="multiples images"  
                         fetchpriority="low"
@@ -116,8 +116,8 @@ const SketchCrea = () => {
                         <img 
                             className="sketchCrea__containerImg--img" 
                             src={`${process.env.PUBLIC_URL}/assets/banners/Video.jpg`} 
-                            width="12000" 
-                            height="2400"   
+                            width="1600" 
+                            height="320"   
                             loading="lazy"  
                             alt="dessin technique"  
                             fetchpriority="low"
@@ -142,8 +142,8 @@ const SketchCrea = () => {
                     <img 
                         className="sketchCrea__containerImg--img" 
                         src={`${process.env.PUBLIC_URL}/assets/banners/dessin.jpg`} 
-                        width="12000" 
-                        height="2400"  
+                        width="1600" 
+                        height="320"  
                         loading="lazy"  
                         alt="personnages dessinés"  
                         fetchpriority="low"

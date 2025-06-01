@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import logoMutuactP from '../../public/assets/pictures/logo-mutuact-blanc-solo.png'
 
 // styles
 import './m-cgu.css'
@@ -17,11 +16,20 @@ const CGU = () => {
 
     return (
         <section id='cgu'className='cgu'>
-            <Link to='/'>
-                <img 
-                    className='cgu__logo-mutuact' 
-                    src={logoMutuactP} alt='logo mutuact' 
-                />
+            <Link to="/">
+                <picture>
+                    <source srcSet={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo.png`} type="image/png" loading="lazy" fetchpriority="low" />
+                    <img 
+                        className="cgu__logo-sketchview" 
+                        src={`${process.env.PUBLIC_URL}/assets/logos/sketchview-logo.png`} 
+                        width="966" 
+                        height="880" 
+                        loading="lazy"  
+                        alt="sketchview-logo"  
+                        fetchpriority="low"
+                        decoding="async"
+                    />
+                </picture>
             </Link>
             <h1>Mentions légales</h1>
             
@@ -94,7 +102,7 @@ const CGU = () => {
                 Collecte des données
             </h2>
             <p>
-                Notre site internet « mutuact.fr » collecte des données personnelles :
+                Notre site internet « sketchview.fr » collecte des données personnelles :
                 Quand vous nous contactez à l’aide d’un de nos formulaires.
                 Quelles sont les données collectées et pourquoi ?
                 Uniquement des informations nécessaires à notre échange telles que : votre nom, prénom, adresse email, téléphone.
@@ -119,7 +127,7 @@ const CGU = () => {
                 Comment voir ou supprimer mes données ?
             </h2>
             <p>
-                Raison Sociale : MUTUACT
+                Raison Sociale : sketchview
                 <br/><br/>
                 Adresse du siège social : 41 Rue de la Découverte CS37621 - 31670 Labège - France
                 <br/><br/>
