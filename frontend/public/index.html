@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Charset et compatibilité -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Language" content="fr" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="sketchview" />
+  <meta name="application-name" content="sketchview" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/logo-icon.png" />
+  <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+  <meta name="generator" content="react 18.3.1" />
+
+  <!-- SEO : Description, mots-clés, robots -->
+  <meta name="description" content="Sketch View est une société de dessin 3D et de création graphique qui accompagne les entreprises dans leurs projets techniques et créatifs. Grâce à une expertise pointue et des outils performants, nous offrons des solutions visuelles adaptées pour renforcer vos dossiers de réponse aux appels d'offres, expliquer clairement vos plans d'installation de chantier et vos modes opératoires mais aussi illustrer vos idées de manière innovante et percutante. ​Nous travaillons en étroite collaboration avec nos clients pour transformer des concepts complexes en visuels accessibles et engageants​.​" />
+  <meta name="keywords" content="agence de dessin 3D, meilleur création graphique, dessinateur 3D, meilleur dessinateur, visuel 3d, dessin industriel, maquette 3D, graphisme, grphiste, graphiste 3D, infographiste, infographie, infographiste 3D, infographie 3D, dessin technique, dessin industriel, dessin technique 3D, dessin technique industriel, dessin technique 2D, dessin technique 3D, dessin technique industriel 2D, dessin technique industriel 3D" />
+  <meta http-equiv="Cache-Control" content="max-age=31536000, immutable" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta http-equiv="Referrer-Policy" content="no-referrer" />
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()" /> 
+
+  <!-- Open Graph Meta Tags (réseaux sociaux) -->
+  <meta property="og:locale" content="fr" />
+  <meta property="og:site_name" content="sketchview" />
+  <meta property="og:title" content="sketchview : dessinateur indistruel 3D" />
+  <meta property="og:description" content="Sketch View est une société de dessin 3D et de création graphique qui accompagne les entreprises dans leurs projets techniques et créatifs. Grâce à une expertise pointue et des outils performants, nous offrons des solutions visuelles adaptées pour renforcer vos dossiers de réponse aux appels d'offres, expliquer clairement vos plans d'installation de chantier et vos modes opératoires mais aussi illustrer vos idées de manière innovante et percutante. ​Nous travaillons en étroite collaboration avec nos clients pour transformer des concepts complexes en visuels accessibles et engageants​." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.sketchview.fr" />
+  <meta property="og:image" content="https://www.sketchview.fr/assets/logos/sketchview-logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@sketchview" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "sketchview",
+      "url": "https://www.sketchview.fr",
+      "founder": "Nicolas DENYS de BONNAVENTURE",
+      "logo": "https://www.sketchview.fr/assets/logos/sketchview-logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33-6-48-55-83-31",
+        "contactType": "Customer Service",
+        "areaServed": "FR",
+        "availableLanguage": "fr"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "SKETCH VIEW, 60 rue François 1er",
+        "addressLocality": "Paris",
+        "addressRegion": "Ile de France",
+        "postalCode": "75008",
+        "addressCountry": "FR"
+      }
+     }
+  </script>
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://www.sketchview.fr" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/sketchview-logo.png" />
+  <link rel="icon" href="http://localhost:3000/favicon.ico" />
+
+  <!-- Preconnect & Preload 
+  <link rel="preconnect" href="https://www.sketchview.fr" />
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/brands/logo-sketchview.png" type="image/png" fetchpriority="high">
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/pictures/nature.png" type="image/png" fetchpriority="high">
+  <link rel="preload" as="image" href="https://www.sketchview.fr/assets/pictures/nature2.png" type="image/png" fetchpriority="high"> -->
+  <!-- Preconnect & Preload -->
+  <link rel="preload" href="https://www.sketchview.fr/static/css/main.css" as="style" />
+  <link rel="preload" href="https://www.sketchview.fr/static/js/main.js" as="script">
+
+  <!-- Preload CSS (non-blocking) -->
+  <link rel="stylesheet" href="https://www.sketchview.fr/static/css/main.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+  <noscript>
+    <link rel="stylesheet" href="https://www.sketchview.fr/static/css/main.css">
+  </noscript>
+
+  <!-- Manifest -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>sketchview : dessinateur industriel 3D</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.backgroundImage = "url('https://www.sketchview.fr/assets/pictures/cubes.png'), linear-gradient(rgb(20, 73, 109), rgb(25, 99, 148))";
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        let futurContainer = document.querySelector('.futur__container');
+        if (futurContainer) {
+            observer.observe(futurContainer);
+        }
+    });
+  </script> 
+  <script defer src="https://www.sketchview.fr/static/js/main.js"></script> -->
+</body>
+
+</html> 
