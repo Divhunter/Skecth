@@ -78,10 +78,8 @@
   <link rel="preload" href="%PUBLIC_URL%/static/js/main.js" as="script" />
 
   <!-- Preload CSS (non-blocking) -->
-  <link rel="stylesheet" href="%PUBLIC_URL%/static/css/main.css" media="print" onload="this.onload=null;this.removeAttribute('media');" />
-  <noscript>
-    <link rel="stylesheet" href="%PUBLIC_URL%/static/css/main.css" />
-  </noscript>
+  <link rel="preload" href="/Sketch/static/css/main.css" as="style" />
+  <link rel="stylesheet" href="/Sketch/static/css/main.css" media="print" onload="this.onload=null;this.removeAttribute('media');" />
 
   <!-- Manifest -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -93,7 +91,7 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <script defer src="%PUBLIC_URL%/static/js/main.js"></script>
+  <script defer src="/Sketch/static/js/main.js"></script>
 </body>
 
 </html>
