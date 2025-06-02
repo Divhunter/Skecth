@@ -15,6 +15,6 @@
 </FilesMatch>
 
 # Déclenche une nouvelle version SW automatiquement
-<FilesMatch "\.(webp|avif|png|woff2|js|css)$">
+<FilesMatch "\.(webp|avif|png|jpg|woff2|js|css)$">
   Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>

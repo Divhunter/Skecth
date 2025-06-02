@@ -1,5 +1,5 @@
-https://www.sketchview.fr/
-https://www.sketchview.fr/CGU
-https://www.sketchview.fr/SketchInfo
-https://www.sketchview.fr/SketchCrea
-https://www.sketchview.fr/SketchTchat
+http://localhost:3000/
+http://localhost:3000/CGU
+http://localhost:3000/SketchInfo
+http://localhost:3000/SketchCrea
+http://localhost:3000/SketchTchat

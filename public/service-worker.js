@@ -41,8 +41,10 @@ self.addEventListener('install', (event) => {
           'http://localhost:3000/assets/picturesmail1.png',
           'http://localhost:3000/assets/pictures/mail2.png',
           'http://localhost:3000/assets/pictures/mail3.png',
+
           'http://localhost:3000/assets/logos/sketchview-logo.png',
           'http://localhost:3000/assets/logos/sketchview-logo-full.png',
+          
           'http://localhost:3000/assets/banners/dessin.jpg',
           'http://localhost:3000/assets/banners/images.jpg',
           'http://localhost:3000/assets/banners/PIC.jpg',
