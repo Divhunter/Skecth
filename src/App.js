@@ -22,7 +22,7 @@ const App = () => {
       <SketchHeader />
       <ScrollToTop />
       <Routes>
-        <Route path='/Sketch' element={<SketchBanner />} />
+        <Route path='/' element={<SketchBanner />} />
         <Route path='/SketchInfo' element={<SketchInfo />} />
         <Route path='/SketchCrea' element={<SketchCrea />} />
         <Route path='/SketchTchat' element={<SketchTchat />} />

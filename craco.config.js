@@ -15,9 +15,6 @@ module.exports = {
   },
   webpack: {
     configure: (webpackConfig) => {
-      // IMPORTANT : Pour GitHub Pages (Sketch = nom du repo)
-      webpackConfig.output.publicPath = "/Sketch/";
-
       // Activer HMR et Live Reload
       webpackConfig.devServer = {
         ...webpackConfig.devServer,
@@ -32,7 +29,7 @@ module.exports = {
         poll: 1000,
       };
 
-      // Support .mjs
+      // Ajouter le support des fichiers .mjs (ECMAScript Modules)
       webpackConfig.module.rules.push({
         test: /\.mjs$/,
         include: /node_modules/,
@@ -44,11 +41,11 @@ module.exports = {
         (plugin) => !(plugin instanceof WebpackManifestPlugin)
       );
 
-      // Renommage des fichiers JS
+      // Réécrire les noms de fichiers de sortie
       webpackConfig.output.filename = "static/js/[name].js";
       webpackConfig.output.chunkFilename = "static/js/[name].chunk.js";
 
-      // Renommage des fichiers CSS
+      // Modifier les options de MiniCssExtractPlugin
       webpackConfig.plugins = webpackConfig.plugins.map((plugin) => {
         if (plugin instanceof MiniCssExtractPlugin) {
           return new MiniCssExtractPlugin({
@@ -60,7 +57,7 @@ module.exports = {
         return plugin;
       });
 
-      // Manifest plugin avec chemin correct
+      // Ajouter WebpackManifestPlugin
       webpackConfig.plugins.push(
         new WebpackManifestPlugin({
           fileName: "asset-manifest.json",
@@ -86,4 +83,3 @@ module.exports = {
     FAST_REFRESH: true,
   },
 };
-

@@ -2,7 +2,7 @@
   "name": "sketchviewapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://divhunter.github.io/Sketch",
+  "homepage": "http://localhost:3000",
   "engines": {
     "node": "18.x"
   },
